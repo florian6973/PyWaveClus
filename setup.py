@@ -7,7 +7,7 @@ setup(
     author='Masoud Khani',
     author_email='khanim@uwm.edu',
     url='https://github.com/msdkhani/pywaveclus',
-    packages='pywaveclus',
+    packages=['pywaveclus'],
     install_requires=[
         'spikeinterface',
         'numpy',
