@@ -8,6 +8,10 @@ setup(
     author_email='khanim@uwm.edu',
     url='https://github.com/msdkhani/pywaveclus',
     packages=['pywaveclus'],
+    package_data={
+        'pywaveclus': ['*.yaml'],
+    },
+    include_package_data=True,
     install_requires=[
         'spikeinterface',
         'numpy',
