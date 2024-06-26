@@ -12,7 +12,6 @@ setup(
         'spikeinterface',
         'numpy',
         'scipy',
-        'pywt',
         'scikit-learn',
         'statsmodels',
         'matplotlib',
