@@ -11,6 +11,7 @@ setup(
     install_requires=[
         'spikeinterface',
         'numpy',
+        'PyWavelets',
         'scipy',
         'scikit-learn',
         'statsmodels',
